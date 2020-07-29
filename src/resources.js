@@ -1738,5 +1738,5 @@ export function plasmidBonus(type){
     }
 
     let final = (1 + standard) * (1 + anti);
-    return final - 1;
+    return (final - 1) * 10;
 }
